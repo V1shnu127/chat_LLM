@@ -1,5 +1,4 @@
 # Vishnu's LLM Chat 🤖
-
 A Streamlit-based conversational LLM application powered by Groq and LangChain.
 
 ## Features
@@ -13,6 +12,4 @@ A Streamlit-based conversational LLM application powered by Groq and LangChain.
 - LangChain
 - Groq API
 
-## Run Locally
-pip install -r requirements.txt
-streamlit run app.py
+Website: https://v1shnu127-chat.streamlit.app/
