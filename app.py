@@ -14,7 +14,6 @@ llm = ChatGroq(
 
 # UI
 st.set_page_config(page_title="Vishnu LLM", page_icon="🤖")
-# st.title("Ask me")
 st.write("Ask your queries")
 
 # User input
@@ -29,4 +28,5 @@ if st.button("Generate Response"):
             response = llm.invoke(user_prompt)
             st.success("Response:")
             st.write(response.content)
+
 
