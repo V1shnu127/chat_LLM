@@ -14,8 +14,8 @@ llm = ChatGroq(
 
 # UI
 st.set_page_config(page_title="Vishnu LLM", page_icon="🤖")
-st.title("Ask valid questions")
-st.write("Ask anything and get answers from Groq LLM")
+# st.title("Ask me")
+st.write("Ask your queries")
 
 # User input
 user_prompt = st.text_area("Enter your prompt:", height=150)
@@ -29,3 +29,4 @@ if st.button("Generate Response"):
             response = llm.invoke(user_prompt)
             st.success("Response:")
             st.write(response.content)
+
